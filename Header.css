@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #0B0B12;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.site-title {
+  font-family: 'Montaga', serif;
+  color: white;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.site-title .line1,
+.site-title .line2 {
+  display: block;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: #ECCE8B;
+}
+
+.header-right {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn {
+  background-color: #087994;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: background 0.3s ease;
+}
+
+.signup-btn {
+  background: none;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  opacity: 0.8;
+}
